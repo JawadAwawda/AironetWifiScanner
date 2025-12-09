@@ -47,26 +47,52 @@ The app requires the following permissions:
 
 ## Usage
 
-1. Launch the app
+1. Launch the app - displays "Aironet WiFi Scanner" header
 2. Grant location permission when prompted
-3. Tap the "Scan Networks" button
-4. View the list of detected WiFi networks
+3. Tap the "SCAN NETWORKS" button to scan for available WiFi networks
+4. Networks are displayed grouped by SSID with collapsible sections
+5. Each network group shows the number of access points (APs) available
+6. Tap on an individual AP to view detailed information
+
+### Network List View
+The main screen shows:
+- **Network Groups**: WiFi networks organized by SSID name
+- **AP Count**: Number of access points broadcasting each network
+- **Expandable Groups**: Click the expand/collapse icon to show/hide individual APs
+- **AP Details**: Each AP shows:
+  - BSSID (MAC address)
+  - AP Name (for Cisco Aironet APs)
+  - Signal Strength (dBm with color indicator)
+  - Frequency Band (2.4 GHz, 5 GHz, etc.)
+  - Channel number
+
+### Detailed Network Information
+Tap on a network to see comprehensive details:
+- **GENERAL Section**:
+  - Signal Strength (dBm)
+  - Signal Quality (Excellent/Good/Fair/Weak/Poor)
+  - Frequency (MHz and GHz)
+  - Channel number
+
+- **PROTOCOL Section**:
+  - WiFi Standard (802.11n, 802.11ac, etc.)
+  - Channel Width (20 MHz, 40 MHz, 80 MHz, etc.)
+
+- **CISCO AIRONET Section** (when available):
+  - AP Name (configured access point name)
+  - Client Count (number of connected devices)
+  - AP Load (percentage utilization)
+  - Channel Utilization (percentage)
 
 ## Screenshots
 
 ### Main Screen
-The main screen displays all detected WiFi networks grouped by SSID. Each group shows:
-- Network name (SSID)
-- Number of access points
-- Expandable list of APs with signal strength, frequency, and AP information
+The main screen displays all detected WiFi networks grouped by SSID. Each group shows the number of access points and expandable details.
 
 ![Main Screen](screenshots/main_screen.png)
 
 ### Network Details
-Tap on any network to view detailed information including:
-- **General**: Signal strength, signal quality, frequency, and channel
-- **Protocol**: WiFi standard and channel width
-- **Cisco Aironet**: AP name, client count, AP load, and channel utilization (if available)
+Detailed view showing complete information about a selected network including general info, protocol details, and Cisco Aironet specific data.
 
 ![Network Details](screenshots/network_details.png)
 
