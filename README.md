@@ -52,6 +52,23 @@ The app requires the following permissions:
 3. Tap the "Scan Networks" button
 4. View the list of detected WiFi networks
 
+## Screenshots
+
+### Main Screen
+The main screen displays all detected WiFi networks grouped by SSID. Each group shows:
+- Network name (SSID)
+- Number of access points
+- Expandable list of APs with signal strength, frequency, and AP information
+
+![Main Screen](screenshots/main_screen.png)
+
+### Network Details
+Tap on any network to view detailed information including:
+- **General**: Signal strength, signal quality, frequency, and channel
+- **Protocol**: WiFi standard and channel width
+- **Cisco Aironet**: AP name, client count, AP load, and channel utilization (if available)
+
+![Network Details](screenshots/network_details.png)
 
 ## Technical Details
 
