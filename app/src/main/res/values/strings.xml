@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aironet WiFi Scanner</string>
+    <string name="scan_button">Scan Networks</string>
+    <string name="no_networks_found">No WiFi networks found</string>
+    <string name="scanning">Scanning for networks…</string>
+    <string name="permission_required">Location permission is required to scan WiFi networks</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="signal_strength">Signal: %1$d dBm</string>
+    <string name="frequency_2ghz">2.4 GHz</string>
+    <string name="frequency_5ghz">5 GHz</string>
+    <string name="frequency_6ghz">6 GHz</string>
+    <string name="cisco_ap">Cisco Aironet AP</string>
+    <string name="ap_name">AP Name: %1$s</string>
+    <string name="load_info">Load: %1$s</string>
+    <string name="enable_location">Please enable location services to scan WiFi networks</string>
+</resources>

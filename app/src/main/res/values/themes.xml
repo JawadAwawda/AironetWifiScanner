@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme -->
+    <style name="Theme.AironetWifiScanner" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Brand Attributes -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorSecondary">@color/brand_secondary</item>
+        <item name="colorAccent">@color/brand_accent</item>
+        
+        <!-- Surface & Background -->
+        <item name="android:windowBackground">@color/lt_background</item>
+        <item name="colorSurface">@color/lt_surface</item>
+
+        <!-- Text & Borders -->
+        <item name="android:textColorPrimary">@color/lt_text_primary</item>
+        <item name="android:textColorSecondary">@color/lt_text_secondary</item>
+        <item name="borderColor">@color/lt_border</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme: Base Colors -->
+    <color name="dt_surface">#2A2F33</color>
+    <color name="dt_background">#1C1E20</color>
+    <color name="dt_text_primary">#E2E8F0</color>
+    <color name="dt_text_secondary">#A0AEC0</color>
+    <color name="dt_border">#4A5568</color>
+</resources>
