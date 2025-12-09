@@ -51,7 +51,7 @@ The app requires the following permissions:
 2. Grant location permission when prompted
 3. Tap the "Scan Networks" button
 4. View the list of detected WiFi networks
-5. Cisco Aironet APs will be highlighted with a blue badge and show additional information
+
 
 ## Technical Details
 
@@ -83,6 +83,3 @@ For Cisco Aironet APs, the app attempts to extract:
 
 This is a demonstration project created for educational purposes.
 
-## Version
-
-**1.0** - Initial release
