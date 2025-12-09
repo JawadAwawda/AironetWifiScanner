@@ -89,12 +89,12 @@ Tap on a network to see comprehensive details:
 ### Main Screen
 The main screen displays all detected WiFi networks grouped by SSID. Each group shows the number of access points and expandable details.
 
-![Main Screen](screenshots/main_screen.png)
+![Main Screen](screenshots/main_screen.jpg)
 
 ### Network Details
 Detailed view showing complete information about a selected network including general info, protocol details, and Cisco Aironet specific data.
 
-![Network Details](screenshots/network_details.png)
+![Network Details](screenshots/network_details.jpg)
 
 ## Technical Details
 
